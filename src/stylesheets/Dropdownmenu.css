@@ -1,0 +1,11 @@
+*{
+  color: white;
+}
+
+Select{
+  width: 400px;
+  height: auto;
+  margin: 50px;
+  color: white !important;
+  display: flex;
+}
