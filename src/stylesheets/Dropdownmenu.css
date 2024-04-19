@@ -1,11 +1,8 @@
-*{
-  color: white;
+:root{
+  --procone:  #2f5674 ;
 }
 
-Select{
-  width: 400px;
-  height: auto;
-  margin: 50px;
-  color: white !important;
-  display: flex;
+.drop-container{
+  margin: 20px;
+  width: 150px;
 }

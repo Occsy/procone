@@ -20,9 +20,33 @@ function Dropdownmenu(){
         styles={{
           control: (baseStyles, state) => ({
             ...baseStyles,
-            backgroundColor: "none"
-           
+            backgroundColor: '#2f5674',
+            color: 'white'
           }),
+          option: (styles) => ({
+              ...styles,
+              color: "white",
+              backgroundColor: '#2f5674'
+          }),
+          singleValue: (styles) => ({
+            ...styles,
+            color: 'white',
+            backgroundColor: "white"
+          }),
+          menuList: (styles) =>({
+              ...styles,
+              backgroundColor: "white",
+              border: "2px solid white"
+          }),
+          menu: (styles) =>({
+            ...styles,
+            backgroundColor: "#2f5674"
+          }),
+          placeholder: (styles) =>({
+            ...styles,
+            color: "white"
+          }),
+        
         }}
       
       />
